@@ -14,6 +14,13 @@
 		9A90AD332B1EC0D90089C1C2 /* Xcode15TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A90AD322B1EC0D90089C1C2 /* Xcode15TestTests.swift */; };
 		9A90AD3D2B1EC0DA0089C1C2 /* Xcode15TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A90AD3C2B1EC0DA0089C1C2 /* Xcode15TestUITests.swift */; };
 		9A90AD3F2B1EC0DA0089C1C2 /* Xcode15TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A90AD3E2B1EC0DA0089C1C2 /* Xcode15TestUITestsLaunchTests.swift */; };
+		9A90AD4C2B1ED8DE0089C1C2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A90AD4B2B1ED8DE0089C1C2 /* TestViewController.swift */; };
+		9A90AD4E2B1EDAA00089C1C2 /* TestViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A90AD4D2B1EDAA00089C1C2 /* TestViewController.storyboard */; };
+		9A90AD502B1EDC940089C1C2 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9A90AD4F2B1EDC930089C1C2 /* Localizable.xcstrings */; };
+		9A90AD542B1FFDC30089C1C2 /* Reusable in Frameworks */ = {isa = PBXBuildFile; productRef = 9A90AD532B1FFDC30089C1C2 /* Reusable */; };
+		9A90AD562B1FFF300089C1C2 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A90AD552B1FFF300089C1C2 /* TestView.xib */; };
+		9A90AD582B1FFF410089C1C2 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A90AD572B1FFF410089C1C2 /* TestView.swift */; };
+		9A90AD722B215FC80089C1C2 /* AFMacro in Frameworks */ = {isa = PBXBuildFile; productRef = 9A90AD712B215FC80089C1C2 /* AFMacro */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,12 @@
 		9A90AD382B1EC0DA0089C1C2 /* Xcode15TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Xcode15TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A90AD3C2B1EC0DA0089C1C2 /* Xcode15TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15TestUITests.swift; sourceTree = "<group>"; };
 		9A90AD3E2B1EC0DA0089C1C2 /* Xcode15TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode15TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A90AD4B2B1ED8DE0089C1C2 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		9A90AD4D2B1EDAA00089C1C2 /* TestViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestViewController.storyboard; sourceTree = "<group>"; };
+		9A90AD4F2B1EDC930089C1C2 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		9A90AD552B1FFF300089C1C2 /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		9A90AD572B1FFF410089C1C2 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		9A90AD592B2007550089C1C2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A90AD722B215FC80089C1C2 /* AFMacro in Frameworks */,
+				9A90AD542B1FFDC30089C1C2 /* Reusable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,7 @@
 				9A90AD312B1EC0D90089C1C2 /* Xcode15TestTests */,
 				9A90AD3B2B1EC0DA0089C1C2 /* Xcode15TestUITests */,
 				9A90AD1F2B1EC0D40089C1C2 /* Products */,
+				9A90AD5E2B2012840089C1C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +114,12 @@
 				9A90AD232B1EC0D40089C1C2 /* ContentView.swift */,
 				9A90AD252B1EC0D90089C1C2 /* Assets.xcassets */,
 				9A90AD272B1EC0D90089C1C2 /* Preview Content */,
+				9A90AD4B2B1ED8DE0089C1C2 /* TestViewController.swift */,
+				9A90AD4D2B1EDAA00089C1C2 /* TestViewController.storyboard */,
+				9A90AD4F2B1EDC930089C1C2 /* Localizable.xcstrings */,
+				9A90AD552B1FFF300089C1C2 /* TestView.xib */,
+				9A90AD572B1FFF410089C1C2 /* TestView.swift */,
+				9A90AD592B2007550089C1C2 /* PrivacyInfo.xcprivacy */,
 			);
 			path = Xcode15Test;
 			sourceTree = "<group>";
@@ -127,6 +149,13 @@
 			path = Xcode15TestUITests;
 			sourceTree = "<group>";
 		};
+		9A90AD5E2B2012840089C1C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +172,10 @@
 			dependencies = (
 			);
 			name = Xcode15Test;
+			packageProductDependencies = (
+				9A90AD532B1FFDC30089C1C2 /* Reusable */,
+				9A90AD712B215FC80089C1C2 /* AFMacro */,
+			);
 			productName = Xcode15Test;
 			productReference = 9A90AD1E2B1EC0D40089C1C2 /* Xcode15Test.app */;
 			productType = "com.apple.product-type.application";
@@ -213,8 +246,13 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 9A90AD152B1EC0D40089C1C2;
+			packageReferences = (
+				9A90AD522B1FFDC20089C1C2 /* XCRemoteSwiftPackageReference "Reusable" */,
+				9A90AD702B215FC80089C1C2 /* XCRemoteSwiftPackageReference "AFMacro" */,
+			);
 			productRefGroup = 9A90AD1F2B1EC0D40089C1C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +271,9 @@
 			files = (
 				9A90AD292B1EC0D90089C1C2 /* Preview Assets.xcassets in Resources */,
 				9A90AD262B1EC0D90089C1C2 /* Assets.xcassets in Resources */,
+				9A90AD502B1EDC940089C1C2 /* Localizable.xcstrings in Resources */,
+				9A90AD562B1FFF300089C1C2 /* TestView.xib in Resources */,
+				9A90AD4E2B1EDAA00089C1C2 /* TestViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A90AD582B1FFF410089C1C2 /* TestView.swift in Sources */,
 				9A90AD242B1EC0D40089C1C2 /* ContentView.swift in Sources */,
+				9A90AD4C2B1ED8DE0089C1C2 /* TestViewController.swift in Sources */,
 				9A90AD222B1EC0D40089C1C2 /* Xcode15TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +631,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A90AD522B1FFDC20089C1C2 /* XCRemoteSwiftPackageReference "Reusable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/Reusable.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.2;
+			};
+		};
+		9A90AD702B215FC80089C1C2 /* XCRemoteSwiftPackageReference "AFMacro" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/andfactory/AFMacro.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A90AD532B1FFDC30089C1C2 /* Reusable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A90AD522B1FFDC20089C1C2 /* XCRemoteSwiftPackageReference "Reusable" */;
+			productName = Reusable;
+		};
+		9A90AD712B215FC80089C1C2 /* AFMacro */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A90AD702B215FC80089C1C2 /* XCRemoteSwiftPackageReference "AFMacro" */;
+			productName = AFMacro;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9A90AD162B1EC0D40089C1C2 /* Project object */;
 }

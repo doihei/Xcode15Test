@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "afmacro",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/andfactory/AFMacro.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "91391166f90fa4eb4752550ab3a6935ba001c2f0"
+      }
+    },
+    {
+      "identity" : "reusable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AliSoftware/Reusable.git",
+      "state" : {
+        "revision" : "18674709421360e210c2ecd4e8e08b217d4ea61d",
+        "version" : "4.1.2"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax.git",
+      "state" : {
+        "revision" : "6ad4ea24b01559dde0773e3d091f1b9e36175036",
+        "version" : "509.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>top-level-items</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>30</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>29</string>
+					<key>Timestamp</key>
+					<string>723535335.823173</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Xcode15Test/TestView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>    fileprivate func setup(_ hasIcon: Bool = false) {
+</string>
+				<key>leading</key>
+				<string>    
+    // TODO: hey
+</string>
+				<key>trailing</key>
+				<string>        if hasIcon {
+            stackView.addArrangedSubview(UIImageView(image: .iconTest))
+        }
+</string>
+			</dict>
+			<key>title</key>
+			<string>test</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>52</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>51</string>
+					<key>Timestamp</key>
+					<string>723607274.754506</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Xcode15Test/TestView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>#Preview("iconなし") {
+</string>
+				<key>leading</key>
+				<string>
+// TODO: hey
+</string>
+				<key>trailing</key>
+				<string>    let view = TestView(frame: .init(x: 0, y: 0, width: 300, height: 300))
+    view.setup()
+    return view
+</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>query-specification</key>
+			<dict>
+				<key>query</key>
+				<string>text</string>
+				<key>term</key>
+				<dict>
+					<key>text</key>
+					<string>// TODO:</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>batch-find-query</string>
+		</dict>
+	</array>
+</dict>
+</plist>
