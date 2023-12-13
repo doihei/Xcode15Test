@@ -41,10 +41,6 @@ final class TestView: UIView, NibOwnerLoadable {
         let label3 = UILabel()
         label3.text = String(localized: "TestLabel")
         stackView.addArrangedSubview(label3)
-        
-        let label4 = UILabel()
-        
-        stackView.addArrangedSubview(label4)
     }
 }
 
